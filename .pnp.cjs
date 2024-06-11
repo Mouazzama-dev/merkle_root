@@ -28,10 +28,12 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@coral-xyz/anchor", "npm:0.28.0"],\
+          ["@project-serum/anchor", "npm:0.26.0"],\
           ["@types/bn.js", "npm:5.1.5"],\
           ["@types/chai", "npm:4.3.16"],\
           ["@types/mocha", "npm:9.1.1"],\
           ["chai", "npm:4.4.1"],\
+          ["js-sha256", "npm:0.11.0"],\
           ["mocha", "npm:9.2.2"],\
           ["prettier", "npm:2.8.8"],\
           ["ts-mocha", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:10.0.0"],\
@@ -75,6 +77,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@coral-xyz/borsh", [\
+      ["npm:0.26.0", {\
+        "packageLocation": "../../.yarn/berry/cache/@coral-xyz-borsh-npm-0.26.0-97bd4f10ea-10c0.zip/node_modules/@coral-xyz/borsh/",\
+        "packageDependencies": [\
+          ["@coral-xyz/borsh", "npm:0.26.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
       ["npm:0.28.0", {\
         "packageLocation": "../../.yarn/berry/cache/@coral-xyz-borsh-npm-0.28.0-34a5cc0c3a-10c0.zip/node_modules/@coral-xyz/borsh/",\
         "packageDependencies": [\
@@ -86,6 +95,21 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@coral-xyz-borsh-virtual-7f1d43e6a7/3/.yarn/berry/cache/@coral-xyz-borsh-npm-0.28.0-34a5cc0c3a-10c0.zip/node_modules/@coral-xyz/borsh/",\
         "packageDependencies": [\
           ["@coral-xyz/borsh", "virtual:26dc15d431612a98ac0ae5bd3ff29d4ae1d34520b8ff0a127eb99b5bc313f75060a96efa7699272719f7e0f4ae9a75b475832242cfe49e0a859edcf04ed60bf1#npm:0.28.0"],\
+          ["@solana/web3.js", "npm:1.92.3"],\
+          ["@types/solana__web3.js", null],\
+          ["bn.js", "npm:5.2.1"],\
+          ["buffer-layout", "npm:1.2.2"]\
+        ],\
+        "packagePeers": [\
+          "@solana/web3.js",\
+          "@types/solana__web3.js"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:da1f243635b04ce157986823e48a1e73713ac56ca12e02a4f0a806e6a821888fd591d4f2234f09b542b09b162a3c9e034817065155d8d24a64937bf5f059141e#npm:0.26.0", {\
+        "packageLocation": "./.yarn/__virtual__/@coral-xyz-borsh-virtual-7b1aeed1c7/3/.yarn/berry/cache/@coral-xyz-borsh-npm-0.26.0-97bd4f10ea-10c0.zip/node_modules/@coral-xyz/borsh/",\
+        "packageDependencies": [\
+          ["@coral-xyz/borsh", "virtual:da1f243635b04ce157986823e48a1e73713ac56ca12e02a4f0a806e6a821888fd591d4f2234f09b542b09b162a3c9e034817065155d8d24a64937bf5f059141e#npm:0.26.0"],\
           ["@solana/web3.js", "npm:1.92.3"],\
           ["@types/solana__web3.js", null],\
           ["bn.js", "npm:5.2.1"],\
@@ -170,6 +194,30 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/@pkgjs-parseargs-npm-0.11.0-cd2a3fe948-10c0.zip/node_modules/@pkgjs/parseargs/",\
         "packageDependencies": [\
           ["@pkgjs/parseargs", "npm:0.11.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@project-serum/anchor", [\
+      ["npm:0.26.0", {\
+        "packageLocation": "../../.yarn/berry/cache/@project-serum-anchor-npm-0.26.0-da1f243635-10c0.zip/node_modules/@project-serum/anchor/",\
+        "packageDependencies": [\
+          ["@project-serum/anchor", "npm:0.26.0"],\
+          ["@coral-xyz/borsh", "virtual:da1f243635b04ce157986823e48a1e73713ac56ca12e02a4f0a806e6a821888fd591d4f2234f09b542b09b162a3c9e034817065155d8d24a64937bf5f059141e#npm:0.26.0"],\
+          ["@solana/web3.js", "npm:1.92.3"],\
+          ["base64-js", "npm:1.5.1"],\
+          ["bn.js", "npm:5.2.1"],\
+          ["bs58", "npm:4.0.1"],\
+          ["buffer-layout", "npm:1.2.2"],\
+          ["camelcase", "npm:6.3.0"],\
+          ["cross-fetch", "npm:3.1.8"],\
+          ["crypto-hash", "npm:1.3.0"],\
+          ["eventemitter3", "npm:4.0.7"],\
+          ["js-sha256", "npm:0.9.0"],\
+          ["pako", "npm:2.1.0"],\
+          ["snake-case", "npm:3.0.4"],\
+          ["superstruct", "npm:0.15.5"],\
+          ["toml", "npm:3.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1428,6 +1476,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["js-sha256", [\
+      ["npm:0.11.0", {\
+        "packageLocation": "../../.yarn/berry/cache/js-sha256-npm-0.11.0-47c95194c3-10c0.zip/node_modules/js-sha256/",\
+        "packageDependencies": [\
+          ["js-sha256", "npm:0.11.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:0.9.0", {\
         "packageLocation": "../../.yarn/berry/cache/js-sha256-npm-0.9.0-1aa718efaf-10c0.zip/node_modules/js-sha256/",\
         "packageDependencies": [\
@@ -2045,10 +2100,12 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["root-workspace-0b6124", "workspace:."],\
           ["@coral-xyz/anchor", "npm:0.28.0"],\
+          ["@project-serum/anchor", "npm:0.26.0"],\
           ["@types/bn.js", "npm:5.1.5"],\
           ["@types/chai", "npm:4.3.16"],\
           ["@types/mocha", "npm:9.1.1"],\
           ["chai", "npm:4.4.1"],\
+          ["js-sha256", "npm:0.11.0"],\
           ["mocha", "npm:9.2.2"],\
           ["prettier", "npm:2.8.8"],\
           ["ts-mocha", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:10.0.0"],\

@@ -17,3 +17,6 @@ default = []
 
 [dependencies]
 anchor-lang = "0.28.0"
+ahash = "=0.8.6"
+sha2 = "0.9.8"
+
